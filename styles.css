@@ -113,7 +113,11 @@ input {
 .tablas {
   display: grid;
   grid-template-columns: 200px 200px;
-  text-align: center;
+}
+
+.cuadro-jugador, .cuadro-enemigo {
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 360px) {
