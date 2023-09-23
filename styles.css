@@ -29,7 +29,7 @@ body {
   padding: 5px;
 }
 
-#tarjetas {
+#tarjetas, #botones {
   display:flex;
   gap: 10px;
 }
@@ -120,11 +120,7 @@ input {
 }
 
 @media (max-width: 360px) {
-  #tarjetas {
-    flex-direction: column;
-  }
-
-  #botones {
+  #tarjetas, #botones {
     flex-direction: column;
   }
 }
