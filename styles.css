@@ -57,7 +57,8 @@ input {
 }
 
 input:hover + label {
-  border-color: rgb(105, 200, 255);
+  border-color: rgb(121, 230, 255);
+  background-color: rgb(253, 255, 121)
 }
 
 input:checked + label {
@@ -78,6 +79,11 @@ input:checked + label {
   border-radius: 10px;
 }
 
+#boton-mascota:hover {
+  border-color: rgb(121, 230, 255);
+  background-color: rgb(253, 255, 121)
+}
+
 #seleccionar-ataque {
   flex-direction: column;
   align-items: center;
@@ -94,6 +100,11 @@ input:checked + label {
   border: 2px solid #2192FF;
   margin: 10px;
   border-radius: 10px;
+}
+
+.boton-ataque:hover {
+  border-color: rgb(121, 230, 255);
+  background-color: rgb(253, 255, 121)
 }
 
 .resultados-finales {
