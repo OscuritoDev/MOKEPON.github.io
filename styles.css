@@ -74,7 +74,11 @@ input {
   align-items: center;
 }
 
-.botones button {
+#botones {
+  display:flex;
+}
+
+#botones button {
   width: 152px;
   height: 70px;
   background-color: #FDFF00;
@@ -117,6 +121,10 @@ input {
 
 @media (max-width: 360px) {
   #tarjetas {
+    flex-direction: column;
+  }
+
+  #botones {
     flex-direction: column;
   }
 }
