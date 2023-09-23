@@ -56,6 +56,11 @@ input {
   display: none;
 }
 
+input:hover + label {
+  border-color: rgb(121, 230, 255);
+  background-color: rgb(253, 255, 121)
+}
+
 input:checked + label {
   background-color: #2192FF;
   border-color: #FDFF00;
