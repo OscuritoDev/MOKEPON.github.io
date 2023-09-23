@@ -125,11 +125,17 @@ input:checked + label {
   color: #000000;
 }
 
+#boton-reiniciar:hover {
+  border-color: gray;
+  background-color: rgb(193, 193, 193)
+}
+
 .tablas {
   display: grid;
   grid-template-columns: 200px 200px;
   border: 2px groove gray;
   border-radius: 5px;
+  background-color: white;
 }
 
 .cuadro-jugador, .cuadro-enemigo {
