@@ -133,6 +133,7 @@ input:checked + label {
 .tablas {
   display: grid;
   grid-template-columns: 200px 200px;
+  grid-template-rows: 50% 50%;
   border: 2px groove gray;
   border-radius: 5px;
   background-color: white;
